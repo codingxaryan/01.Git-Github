@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", "Helvetica On Display", Helvetica, Arial, sans-serif;
+    color: white;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    /* don't override the universal font-family above; inherit instead */
+    font-family: inherit;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+#nav{
+    padding: 15px 20px;
+}
+#nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    /* padding: 15px 20px; */  
+}
+#main>h1{
+    font-size: 250px;
+    padding-left: 45px;
+    font-weight: 200;
+    z-index: 99999;
+    color: black;
+}
+#btm-lft{
+    width: 300px;
+    position: absolute;
+    bottom: 20%;
+    left: 3.5%;
+}
+#btm-lft h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#btm-lft h4{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+#btmBar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    padding: 25px 40px;
+    left: 0;
+    bottom: 0;
+    color: black;
+    /* background-color: red; */
+}
+#btmBar a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+#btmBar h1{
+    color: black;
+
+}
+#main>img{
+    height: 300px;
+}
+#main #img1{
+    height: 200px;
+    position: absolute;
+    bottom: 25%;
+    right: 28%;
+}
+#main #img2{
+    height: 250px;
+    position: absolute;
+    bottom: 10%;
+    right: 45%;
+}
+
+#main #img3{
+    height: 180px;
+    width: 150px;
+    position: absolute;
+    bottom: 5%;
+    right: 38%;
+}
